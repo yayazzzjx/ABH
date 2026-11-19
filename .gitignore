@@ -6,7 +6,6 @@ __pycache__/
 *.egg-info/
 build/
 .venv/
-data/
 weights/
 work/
 *.pth
