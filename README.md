@@ -22,7 +22,7 @@ See the [source lock](configs/source_provenance.json), [dependency notices](thir
 
 ## Data and initialization
 
-Choose `C500` (Crack500), `DC` (corrected DeepCrack), `CAM` (CamCrack789), `CM` (CrackMap), or `TUT`. Under the dataset root, place source images in `train/images`, `val/images`, and `test/images`, and the corresponding 8-bit masks in the matching `masks` directories. The ordered filename pairs in `splits/<dataset>.json` specify the exact membership. The training order files also record the repeated first sample for odd training split sizes. The loader applies bicubic resizing to 512 × 512, then binarizes masks at values greater than 127.
+The datasets are included in `data/`: `C500` (Crack500), `DC` (corrected DeepCrack), `CAM` (CamCrack789), `CM` (CrackMap), and `TUT`. Each dataset contains source images in `train/images`, `val/images`, and `test/images`, and the corresponding 8-bit masks in the matching `masks` directories. The ordered filename pairs in `splits/<dataset>.json` specify the exact membership. The training order files also record the repeated first sample for odd training split sizes. The loader applies bicubic resizing to 512 × 512, then binarizes masks at values greater than 127.
 
 Supply the official SegMAN-L ImageNet EMA checkpoint or the corresponding encoder-only state dictionary. The default builds the zero-update decoder from seed 42. For the exact archived initialization, also supply the original `SEED42_ZERO_UPDATE_CORE.pth` with `--initial-core`. The archive applied this artifact to the freshly initialized common tensors before loading the ImageNet weights. It is an external input for exact reproduction.
 
