@@ -1,0 +1,14 @@
+{
+  "dataset": "TUT",
+  "counts": {
+    "train": 987,
+    "val": 139,
+    "test": 282
+  },
+  "warmup_iters": 309,
+  "support_start": 309,
+  "support_full": 1235,
+  "steps_per_epoch": 494,
+  "split_file": "splits/TUT.json",
+  "order_file": "splits/TUT_order.json"
+}

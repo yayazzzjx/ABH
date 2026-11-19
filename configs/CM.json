@@ -1,0 +1,14 @@
+{
+  "dataset": "CrackMap",
+  "counts": {
+    "train": 84,
+    "val": 12,
+    "test": 24
+  },
+  "warmup_iters": 27,
+  "support_start": 27,
+  "support_full": 105,
+  "steps_per_epoch": 42,
+  "split_file": "splits/CM.json",
+  "order_file": "splits/CM_order.json"
+}

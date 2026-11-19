@@ -1,0 +1,14 @@
+{
+  "dataset": "Crack500",
+  "counts": {
+    "train": 2357,
+    "val": 336,
+    "test": 675
+  },
+  "warmup_iters": 737,
+  "support_start": 737,
+  "support_full": 2948,
+  "steps_per_epoch": 1179,
+  "split_file": "splits/C500.json",
+  "order_file": "splits/C500_order.json"
+}

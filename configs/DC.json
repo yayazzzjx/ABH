@@ -1,0 +1,14 @@
+{
+  "dataset": "DeepCrack",
+  "counts": {
+    "train": 368,
+    "val": 53,
+    "test": 106
+  },
+  "warmup_iters": 115,
+  "support_start": 115,
+  "support_full": 460,
+  "steps_per_epoch": 184,
+  "split_file": "splits/DC.json",
+  "order_file": "splits/DC_order.json"
+}

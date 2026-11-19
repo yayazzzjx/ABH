@@ -1,0 +1,24 @@
+name: abh-drc
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip=24.0
+  - setuptools=69
+  - wheel=0.43
+  - ninja
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu118
+      - --find-links https://whl.natten.org/old/
+      - torch==2.1.2+cu118
+      - torchvision==0.16.2+cu118
+      - triton==2.1.0
+      - natten==0.17.3+torch210cu118
+      - numpy==1.26.4
+      - scipy==1.11.4
+      - scikit-image==0.22.0
+      - opencv-python==4.10.0.84
+      - yapf==0.40.1
+      - mmsegmentation==0.30.0
+      - timm==0.9.16
+      - einops==0.7.0

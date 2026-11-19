@@ -1,0 +1,14 @@
+{
+  "dataset": "CamCrack789",
+  "counts": {
+    "train": 553,
+    "val": 79,
+    "test": 157
+  },
+  "warmup_iters": 174,
+  "support_start": 174,
+  "support_full": 693,
+  "steps_per_epoch": 277,
+  "split_file": "splits/CAM.json",
+  "order_file": "splits/CAM_order.json"
+}

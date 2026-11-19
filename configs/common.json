@@ -1,0 +1,8 @@
+{
+  "abh_epochs": 50,
+  "drc_epochs": 20,
+  "drc_seed": 8042,
+  "drc_lr": 0.0006,
+  "drc_loss_weight": 0.2,
+  "drc_ramp_epochs": 5
+}

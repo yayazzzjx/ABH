@@ -1,0 +1,99 @@
+{
+  "abh_locked_inputs": {
+    "C500": {
+      "inputs/RUN_SPEC.json": "61216ef0affc72b05333e6b6f132fa980c64135678fd187b26175f2604db8121",
+      "inputs/DATA_MANIFEST.json": "7dc5dda2841b88c4584061523160ef42c6bd5c70265e1742ec572708515a6e69",
+      "inputs/orders_segman.json": "8f7afce684b8d87b1832adcb11177903d206598424e1dfbcfd12bb4b9963837c",
+      "source/model.py": "4555a8617079da5b0d198c8ba3c7997262a6c7bc1be34ffc069806982ba5cc45",
+      "source/plain_head_model.py": "bc44eb0ed74162f7455c1471c10a4797bab8a8586b1924b020aba510181f3002"
+    },
+    "DC": {
+      "inputs/RUN_SPEC.json": "781fe914f239e6a6b692903c25e1918ebe1f0c3af3b0d9513836753ef6732f02",
+      "inputs/DATA_MANIFEST.json": "e468d11c5d7c535a4282164637fcb6e9d835c0a9d274195c91994f089be4fc5b",
+      "inputs/orders_segman.json": "e43840f4cc3fbccdbfd25e7f07869589f2865d538884cee7f1f7efa2e83674f2",
+      "source/model.py": "4555a8617079da5b0d198c8ba3c7997262a6c7bc1be34ffc069806982ba5cc45",
+      "source/plain_head_model.py": "bc44eb0ed74162f7455c1471c10a4797bab8a8586b1924b020aba510181f3002"
+    },
+    "CAM": {
+      "inputs/RUN_SPEC.json": "926ac675434435f06bf314f2bb05b3c7514956b897358ed661aa5395cfaecbbd",
+      "inputs/DATA_MANIFEST.json": "238ce3b23108eb42fbc644da722df91dd2ffd8609db1dec30bed327ae10e1c8c",
+      "inputs/orders_segman.json": "91ad14c846bc1d5c422ff6e01438828060eccaf8c0d03492689b66131adcc51e",
+      "source/model.py": "4555a8617079da5b0d198c8ba3c7997262a6c7bc1be34ffc069806982ba5cc45",
+      "source/plain_head_model.py": "bc44eb0ed74162f7455c1471c10a4797bab8a8586b1924b020aba510181f3002"
+    },
+    "CM": {
+      "inputs/RUN_SPEC.json": "882c5b4405f817dbf558f9660ad2fc5ef1b0596c7826896d99a6e9ba048dc89e",
+      "inputs/DATA_MANIFEST.json": "a33bd585c443fad9e79bbe9770b412382cfefd281bd8652b27351cf009832017",
+      "inputs/orders_segman.json": "cd76345af1fdcb9a2122a3deb8f5f2bd51582a92cd6a63ad8fbb807133c9c0c9",
+      "source/model.py": "4555a8617079da5b0d198c8ba3c7997262a6c7bc1be34ffc069806982ba5cc45",
+      "source/plain_head_model.py": "bc44eb0ed74162f7455c1471c10a4797bab8a8586b1924b020aba510181f3002"
+    },
+    "TUT": {
+      "inputs/RUN_SPEC.json": "792f71540a21e23bc718c33d91a8e7568f1887f0685a687783cf819bf10fc6ac",
+      "inputs/DATA_MANIFEST.json": "9883e79ab9c089e278aeb9635b0fcb61774013fbba30ded8b31193af76ac6994",
+      "inputs/orders_segman.json": "cca8b935851d2b72e3aab20e72503e39cd4794b70edb831f7fa45ba5ea350a21",
+      "source/model.py": "4555a8617079da5b0d198c8ba3c7997262a6c7bc1be34ffc069806982ba5cc45",
+      "source/plain_head_model.py": "bc44eb0ed74162f7455c1471c10a4797bab8a8586b1924b020aba510181f3002"
+    }
+  },
+  "drc_locked_sources": {
+    "dl/local_joint_head.py": "39e7d0072f75ef94ed54a91370ad8bd425ce2edb93d5a1703cd592bc3fd635eb",
+    "dl/dual_reference.py": "75f77cf3fd55f1e84447011651e68fc22cb38f886fa27834f9545b26fbb786e2"
+  },
+  "archive_sources": {
+    "abh_model.py": "4387eb668ce2bc587ede3fff3b532758855581260eddaff5a2cc0f07ccd31fe4",
+    "drc_head.py": "df330df5092db72f761b5dafca0384dc3f65a81c96e18b788372b280573555f3",
+    "evaluate.py": "3a6094ccc4eab54c2881ce1a3237b67e789a76b40b7376ef53ccaeaf390f5029",
+    "runtime_helpers.py": "f8b475401fb60dd3aa8f4f5c7f12d7acee3d245789c85d966e5fda3d1ed4b099",
+    "train.py": "4997f6dde3ec655edb9a56e9351f9cf9597fa6d4c98f9edfccb316374d3a5d57"
+  },
+  "locked_segman_sources": {
+    "segman_decoder.py": "75070aef2d000c2f8e9640c55549f0265841b3b1ceecae7100ea5a13d6131842",
+    "detail_routing.py": "e772dc6b83eb3bcf5f5b43175323b914d2d4deb2ed9674182a707d2de469dbfc"
+  },
+  "published_model_files": {
+    "abh_model.py": "66471db4821589921fc7403dd4d693835a59565fe0efa2d8e65dd43b2d17b52e",
+    "drc_head.py": "f40b0d23bb0895adda0c4764eba3e4b6e80dd6bbc35fc8134081ec4c5afd98bd",
+    "third_party/segman/segman_encoder.py": "cbddc1e214ce58c2249722608c874985f18039b09ef597491ef53c61d38fc6ec",
+    "third_party/segman/segman_decoder.py": "db3d59eb2b448c0343cb35d4bc5f6908ff4221736f090ba28b0b7d154d31ab7a",
+    "third_party/segman/detail_routing.py": "5bb97a45bd76fa9ea4c20d864318efef0115ebb03f9d81255d7d2a0624f24ea0"
+  },
+  "segman_build_sources": {
+    "repository": "https://github.com/yunxiangfu2001/SegMAN",
+    "commit": "9ced66ab27f23b0dbc1b0a2fe0ba42e133c55ac8",
+    "files": {
+      "oflex/cusoflex/selective_scan_core_bwd.cu": {
+        "path": "kernels/selective_scan/csrc/selective_scan/cusoflex/selective_scan_core_bwd.cu",
+        "sha256": "1ef772da7d88f4cad71cfeb09fb8b952dda786c36fbb86e380495ba415770e03"
+      },
+      "oflex/cusoflex/selective_scan_core_fwd.cu": {
+        "path": "kernels/selective_scan/csrc/selective_scan/cusoflex/selective_scan_core_fwd.cu",
+        "sha256": "3aef23d427d57c6841d9b0e2aa69e29e4e2006317bf365cbadbac387d98aa364"
+      },
+      "oflex/cusoflex/selective_scan_fwd_kernel_oflex.cuh": {
+        "path": "kernels/selective_scan/csrc/selective_scan/cusoflex/selective_scan_fwd_kernel_oflex.cuh",
+        "sha256": "acee14c649c5d6d0860dfb0bf85442c1c1e6e9652125934b06de50c7f91cc2be"
+      },
+      "oflex/reverse_scan.cuh": {
+        "path": "kernels/selective_scan/csrc/selective_scan/reverse_scan.cuh",
+        "sha256": "a257f066e80ba1c852b97416bf8ebf69b9f4d0d99c66110ea2cc8add7ba9170c"
+      },
+      "oflex/selective_scan_common.h": {
+        "path": "kernels/selective_scan/csrc/selective_scan/selective_scan_common.h",
+        "sha256": "e4569b7a2994a0687f8d6db4e72b968d6c164a5f65da7c568a596affa98bcbf6"
+      },
+      "oflex/static_switch.h": {
+        "path": "kernels/selective_scan/csrc/selective_scan/static_switch.h",
+        "sha256": "1eb3ebf9f2f231be1bfad83ad15612031e24980336c0019f2d742bce599f704c"
+      },
+      "oflex/uninitialized_copy.cuh": {
+        "path": "kernels/selective_scan/csrc/selective_scan/uninitialized_copy.cuh",
+        "sha256": "80d81db2fe2c47d0e89b9b29643fda533ed065d2157d9a1c6a41a1078c057de6"
+      },
+      "segman/csm_triton.py": {
+        "path": "segmentation/mmseg/models/backbones/csm_triton.py",
+        "sha256": "fb90b6599563ffe56cbf3c9f48c69e4983f1ef36e6c44d6a68a9885e2c7b9ed3"
+      }
+    }
+  }
+}
